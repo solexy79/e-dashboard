@@ -12,6 +12,8 @@ body{
 }
 
 
+
+
 .navbar::after{
   content: 'edcomfy';
   position: absolute;
@@ -25,6 +27,22 @@ body{
   color: rgba(255, 255, 255, 0.03);
   background: linear-gradient(95.51deg, #30639D -5.26%, #0F3E74 105.27%);
   z-index: -1;
+}
+
+.dropdown-toggle::before{
+  content: '';
+  background: #1296CE;
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width:0px;
+  height: 2px;
+  transition: width .3s ease-in-out;
+
+}
+
+.dropdown-toggle:hover::before{
+  width: 100%;
 }
 
 
@@ -163,7 +181,8 @@ body{
 
 @media(max-width: 590px){
   .navbar::after{
-    font-size: 6rem; 
+    font-size: 5rem;
+    text-align:center; 
   }
 }
 
