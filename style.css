@@ -2,6 +2,7 @@
 body{
   background: #E5E5E5;
   font-family: 'Manrope', sans-serif!important;
+  overflow-x: hidden;
 }
 
 
@@ -21,11 +22,10 @@ body{
   font-size: 10rem;
   font-weight: bold;
   text-align: right;
-  color: rgba(255, 255, 255, 0.02);
+  color: rgba(255, 255, 255, 0.03);
   background: linear-gradient(95.51deg, #30639D -5.26%, #0F3E74 105.27%);
   z-index: -1;
 }
-
 
 
 .greeting p{
@@ -107,8 +107,63 @@ body{
   line-height: 1rem;
 }
 
+.btn-primary{
+  background: #0075FF;
+  box-shadow: 0px 7px 15px rgba(0, 117, 255, 0.25);
+  border-radius: 3px;
+}
+
+.card:hover .btn{
+  animation: buttonRotation 2s 1s linear;  
+}
+
+@keyframes buttonRotation{
+  0% {transform: scale(1) rotatez(0)}
+  5% {transform: scale(1.1) rotatez(5deg)}
+  10% {transform: scale(1.1) rotatez(-5deg)}
+  15% {transform: scale(1.1) rotatez(5deg)}
+  10% {transform: scale(1.1) rotatez(-5deg)}
+  15% {transform: scale(1.1) rotatez(5deg)}
+  30% {transform: scale(1.1) rotatez(-5deg)}
+  35% {transform: scale(1.1) rotatez(5deg)}
+  40% {transform: scale(1.1) rotatez(-5deg)}
+  45% {transform: scale(1.1) rotatez(5deg)}
+  50% {transform: scale(1.1) rotatez(-5deg)}
+  55% {transform: scale(1.1) rotatez(5deg)}
+  60% {transform: scale(1.1) rotatez(-5deg)}
+  65% {transform: scale(1.1) rotatez(5deg)}
+  70% {transform: scale(1.1) rotatez(-5deg)}
+  75% {transform: scale(1.1) rotatez(5deg)}
+  80% {transform: scale(1.1) rotatez(-5deg)}
+  85% {transform: scale(1.1) rotatez(5deg)}
+  90% {transform: scale(1.1) rotatez(-5deg)}
+  95% {transform: scale(1.1) rotatez(5deg)}
+  100% {transform: scale(1) rotatez(0)}
+}
+
+
+
 @media(max-width: 1200px){
   .card{
     width:240px;
   }
 }
+
+@media(max-width: 994px){
+  .card{
+    width: 295px;
+  }
+}
+
+@media(max-width: 768px){
+  .navbar::after{
+    font-size: 9rem; 
+  }
+}
+
+@media(max-width: 590px){
+  .navbar::after{
+    font-size: 6rem; 
+  }
+}
+
