@@ -1,0 +1,32 @@
+.navbar{
+  background:  rgba(0, 0, 0, 0.2);
+}
+
+.navbar a{
+  color: #fff;
+}
+
+.navbar::after{
+  content: '';
+  position: absolute;
+  width: 1440px;
+  height: 275px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(95.51deg, #30639D -5.26%, #0F3E74 105.27%);
+  z-index: -1;
+}
+
+.greeting p{
+  font-size: 2rem;
+  color: #fff;
+}
+
+.middle{
+  display: flex;
+  justify-content: space-between;
+}
+.middle img{
+  max-width: 5rem;
+}
+
