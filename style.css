@@ -1,15 +1,27 @@
+
+body{
+  background: #E5E5E5;
+  font-family: 'Manrope', sans-serif!important;
+}
+
+
+/* navbar style */
 .navbar{
   background:  rgba(0, 0, 0, 0.2);
 }
 
 
 .navbar::after{
-  content: '';
+  content: 'edcomfy';
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 275px;
   left: 0px;
   top: 0px;
+  font-size: 10rem;
+  font-weight: bold;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.02);
   background: linear-gradient(95.51deg, #30639D -5.26%, #0F3E74 105.27%);
   z-index: -1;
 }
@@ -19,17 +31,82 @@
   color: #fff;
 }
 
+
+.card{
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  width: 278px;
+  height: 200px;
+}
+
+.card-title{
+  width: 91px;
+  height: 31px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.homework{
+  background: linear-gradient(106.59deg, #FF9A24 0%, #DB7600 100%);
+}
+
+.test{
+  background: linear-gradient(106.02deg, #52CA5E 0%, #00A510 100%);
+}
+
+.result{
+  width: 71px;
+  background: linear-gradient(111.41deg, #6283F8 0%, #294BC2 100%);
+}
+
+.practice{
+  background: linear-gradient(109.11deg, #FF2775 0%, #D01F5F 100%);
+}
+
+.announcements{
+  width: 128px;
+  background: linear-gradient(101.52deg, #5FE7F0 0%, #1296CE 100%);
+}
+
+.attendance{
+  background: linear-gradient(105.15deg, #9D5DEE 0%, #6315B1 100%);
+}
+
+.time-table{
+  background: linear-gradient(107.43deg, #FC69FF 0%, #CE25D1 100%);
+}
+
+.gallery{
+  width: 71px;
+  background: linear-gradient(111.41deg, #CDE056 0%, #9AAE20 100%);
+}
+
 .middle{
   display: flex;
   justify-content: space-between;
 }
 .middle img{
-  width: 5rem;
-  height: auto;
+  width: 64px;
+  height: 64px;
+  left: 445px;
+  top: 494px;
+  background: #C4C4C4;
+  border-radius: 3px;
 }
 
-.card{
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
-  border-radius: 5px;
+.card-text{
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
+@media(max-width: 1200px){
+  .card{
+    width:240px;
+  }
+}
