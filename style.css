@@ -2,9 +2,6 @@
   background:  rgba(0, 0, 0, 0.2);
 }
 
-.navbar a{
-  color: #fff;
-}
 
 .navbar::after{
   content: '';
@@ -27,6 +24,12 @@
   justify-content: space-between;
 }
 .middle img{
-  max-width: 5rem;
+  width: 5rem;
+  height: auto;
+}
+
+.card{
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
 
