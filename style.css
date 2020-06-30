@@ -146,11 +146,7 @@ body{
 }
 
 .card:hover .btn{
-  animation: buttonRotation 2s 1s linear;  
-}
-
-.btn:hover{
-  animation: buttonRotation 2s 1s linear;
+  animation: buttonRotation 2s .5s linear;  
 }
 
 @keyframes buttonRotation{
