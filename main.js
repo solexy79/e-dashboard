@@ -1,3 +1,4 @@
+// for the typing animation
 const heading = 'Hi Chandan, have a good evening!' ;
 let i = 0;
 
@@ -13,7 +14,7 @@ const typing = () => {
 typing()
 
 
-
+// for the fade in effect
 const row = document.querySelector('.row');
 
 

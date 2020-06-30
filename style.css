@@ -55,6 +55,7 @@ body{
   position: relative;
 }
 
+/* for the fade in effect */
 .row{
   visibility: hidden;
   opacity: 0;
@@ -149,6 +150,7 @@ body{
   animation: buttonRotation 2s .5s linear;  
 }
 
+/* button shaker animation*/
 @keyframes buttonRotation{
   0% {transform: scale(1) rotatez(0)}
   5% {transform: scale(1.1) rotatez(5deg)}
