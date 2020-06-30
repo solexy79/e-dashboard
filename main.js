@@ -11,3 +11,12 @@ const typing = () => {
 }
 
 typing()
+
+
+
+const row = document.querySelector('.row');
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  row.style.cssText = 'opacity: 1; left: 3%; visibility: visible';
+})
