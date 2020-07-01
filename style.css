@@ -211,3 +211,10 @@ body{
   }
 }
 
+@media(max-width: 420px){
+  .row{
+    transform: translateX(7%);
+  }
+
+}
+
