@@ -33,7 +33,7 @@ body{
   content: '';
   background: #1296CE;
   position: absolute;
-  bottom:5px;
+  bottom:.3rem;
   left: 0;
   width:0px;
   height: 2px;
@@ -193,6 +193,9 @@ body{
   .navbar::after{
     font-size: 9rem; 
   }
+  .row{
+    transform: translateX(15%);
+  }
 }
 
 @media(max-width: 590px){
@@ -202,6 +205,9 @@ body{
   .navbar::after{
     font-size: 5rem;
     text-align:center; 
+  }
+  .row{
+    transform: translateX(10%);
   }
 }
 

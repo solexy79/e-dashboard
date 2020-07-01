@@ -13,7 +13,7 @@ if (greeting == 0 || greeting < 12){
 
 
 // for the typing animation
-const heading = 'Hi Chandan, have a good' + greeting +'!' ;
+const heading = 'Hi Chandan, have a good' + ' ' + greeting +'!' ;
 let i = 0;
 
 const typing = () => {
@@ -33,5 +33,5 @@ const row = document.querySelector('.row');
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  row.style.cssText = 'opacity: 1; left: 3%; visibility: visible';
+  row.style.cssText = 'opacity: 1; left: 0; visibility: visible';
 })
