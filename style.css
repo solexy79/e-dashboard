@@ -214,7 +214,7 @@ body{
 
 @media(max-width: 420px){
   .card{
-    transform: translateX(10%);
+    transform: translateX(8%);
   }
 
 }
