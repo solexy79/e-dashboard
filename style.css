@@ -67,6 +67,7 @@ body{
 
 
 
+
 .card{
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
@@ -193,8 +194,8 @@ body{
   .navbar::after{
     font-size: 9rem; 
   }
-  .row{
-    transform: translateX(15%);
+  .card{
+    transform: translateX(30%);
   }
 }
 
@@ -206,14 +207,14 @@ body{
     font-size: 5rem;
     text-align:center; 
   }
-  .row{
-    transform: translateX(10%);
+  .card{
+    transform: translateX(25%);
   }
 }
 
 @media(max-width: 420px){
-  .row{
-    transform: translateX(7%);
+  .card{
+    transform: translateX(10%);
   }
 
 }
